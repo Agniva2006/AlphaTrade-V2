@@ -1,8 +1,8 @@
 {
   "name": "alphatrade",
-  "version": "1.0.0",
-  "description": "Real-time stock dashboard with prediction demo",
   "private": true,
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,14 +10,12 @@
   },
   "dependencies": {
     "chart.js": "^4.5.1",
-    "lightweight-charts": "^4.0.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.23.0",
-    "recharts": "^2.7.3"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.2.8"
+    "vite": "^5.2.0"
   }
 }
